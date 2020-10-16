@@ -8,7 +8,6 @@
    Group-Object -NoElement |
    where Count -gt 1 |
    where Name -eq 'd'
-   Sort-Object -Property Count -Descending
 
 }
 get-recurringchar 'abcdedcba'
